@@ -11,3 +11,4 @@ sentry-sdk==1.26.0
 pyright==1.1.316
 gpt4all==1.0.5
 huggingface_hub==0.16.3
+torch>=2.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
